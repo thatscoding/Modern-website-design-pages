@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* #AA8F97 */
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #AA8F97;
+    display: flex;
+}
+
+.navbar{
+    position: absolute;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    height: 15%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.navbar img{
+    height: 80px;
+}
+
+.section-1{
+    height: 100%;;
+    width: 25%;
+}
+.section-2{
+    background-color: blueviolet;
+    height: 100%;;
+    width: 67%;
+    background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.353);
+}
+.section-3{
+    /* background-color: magenta; */
+    height: 100%;;
+    width: 8%;
+}
+
+.hero-text{
+    position: absolute;
+    width: 400px;
+    left: 6%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.hero-text>h1{
+    font-size: 95px;
+    font-weight: 900;
+    line-height:70px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #e3d7d7;
+}
+.small-image{
+    /* background-color: red; */
+    background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translate(0,-50%);
+}
+.small-image-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.101);
+}
+.vertical-text {
+    height: 100%;
+    /* background-color: red; */
+    right: 0%;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0%,0%;
+
+    
+}
+.vertical-text p{
+    overflow: hidden;
+
+    color: transparent;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 2px;
+
+
+}
