@@ -104,5 +104,41 @@ html,body{
     width: 100vw;
     height: 100vh;
     position: relative;
+    background-color: #093CCE;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    font-weight: normal;
+}
+.page2>h1{
+    font-size: 4vw;
+    width: 80%;
+    padding: 0 6.3rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #dadada69;
+
+}
+.page2>h3{
+    
+    margin-bottom: 40px;
+    font-size: 1.5vw;
+    width: 80%;
+    padding: 0 6.3rem; 
+    letter-spacing: 2px;
+}
+
+.page3{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
     background-color: red;
 }
+
+.page3>canvas{
+    
+}
+
+
